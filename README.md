@@ -1,0 +1,3 @@
+# Philippine Standard Geographic Code (PSGC) API Client
+
+This is a client for sending HTTP requests to the [PSGC API](https://psgc.gitlab.io/api/) for fetching the list of regions, provinces, cities, municipalities, and barangays in the Philippines. This package is configured with [Axios](https://axios-http.com/) to communicate with the [PSGC API](https://psgc.gitlab.io/api/), so you don't have to.

@@ -2,6 +2,8 @@
 
 This is a client for sending HTTP requests to the [PSGC API](https://psgc.gitlab.io/api/) for fetching the list of regions, provinces, cities, municipalities, and barangays in the Philippines. This package is configured with [Axios](https://axios-http.com/) to communicate with the [PSGC API](https://psgc.gitlab.io/api/), so you don't have to.
 
+This package also uses a caching mechanism to remember the responses to prevent repetitive requests. The cache is based on the request URL, which uses the [Axios Cache Interceptor](https://axios-cache-interceptor.js.org/).
+
 ## Installation
 To install the package, run the following command.
 ```

@@ -1,4 +1,7 @@
-const axios = require("axios")
+const Axios = require("axios")
+const { setupCache } = require("axios-cache-interceptor")
+
+const axios = setupCache(Axios); 
 
 module.exports = {
   getIslandGroups: async (code = "", collection = null) => {

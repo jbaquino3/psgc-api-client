@@ -1,6 +1,6 @@
-const { getProvinces } = require("psgc-api-client")
+const { getBarangays } = require("psgc-api-client")
 
-getProvinces().then((res) => {
+getBarangays().then((res) => {
   console.log(res)
 }).catch((err) => {
     console.log(err)
